@@ -1,0 +1,13 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Development\Embedded\KeilMDK\ARM\ARMCC\Bin'
+Build target 'motor_pid'
+compiling main.c...
+../hardware/oled.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c(86): warning:  #177-D: variable "message"  was declared but never referenced
+    char message[] = "aiko\r\n";
+../Core/Src/main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=8252 RO-data=1848 RW-data=16 ZI-data=1312  
+FromELF: creating hex file...
+"motor_pid\motor_pid.axf" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:01
